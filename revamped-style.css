@@ -20,12 +20,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 //
 ////////////*/
 
+div.PageFrame {
+    /*background-image: linear-gradient(100deg, #013A6B 20%, #004E95 50%);*/
+}
 
 div.Header  {
     display: flex;
     align-items: center;
     height: 60px !important;
+    /*background-color: rgba(0, 0, 0, 0) !important;*/
     background-image: linear-gradient(100deg, #013A6B 20%, #004E95 50%);
+/*    margin: 0 auto;
+    max-width: 960px;*/
 }
 
 div.Header:before {
@@ -48,7 +54,7 @@ a.RALogo {
     bottom: 0 !important;
     left: 0 !important;
     position: inherit !important;
-    margin-left: auto;
+    /*margin-left: auto;*/
 }
 
 .RANotifyButton {
@@ -109,4 +115,51 @@ div.PageFrame div.UserAccount div.Account span.Icon {
     background: url('chrome-extension://__MSG_@@extension_id__/img/data-transfer-download.svg') no-repeat;
     background-size: cover;
     fill: #333399;
+}
+
+/*////////////
+//
+// Options Header
+//
+////////////*/
+
+ul.RANav1Menu li {
+    border: 0 !important;
+}
+
+.RANav1Menu.RANav1Menu.RANav1Menu { 
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 0;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0); 
+}
+
+.RASiteMenuButton.RASiteMenuButton.RASiteMenuButton {
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#ctl00_ctl00_ctl00_ctl00_SiteContent_m_subscribe, #ctl00_ctl00_ctl00_SiteContent_m_subscribe {
+    display: none;
+}
+
+/*////////////
+//
+// Bodyframe
+//
+////////////*/
+
+.BodyFrame.BodyFrame.BodyFrame{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    padding: 0;
+    border: 0;
+}
+
+.WidgetsLayout {
+
 }

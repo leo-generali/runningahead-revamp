@@ -21,6 +21,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .Header  {
     display: flex;
     align-items: center;
+    height: 60px !important;
 }
 
 a.RALogo {
@@ -33,6 +34,30 @@ a.RALogo {
     position: inherit !important;
 }
 
-#ctl00_ctl00_ctl00_SiteContent_m_numMessages {
-    background: url(img/chat.svg);
+.RANotifyButton {
+    padding: 10px !important;
+}
+
+.Icon.Icon.Icon {
+    height: 24px;
+    width: 24px;
+    fill: #333399;
+}
+
+#ctl00_ctl00_ctl00_SiteContent_m_numMessages, #ctl00_ctl00_ctl00_ctl00_SiteContent_m_numMessages {
+    background: url('chrome-extension://__MSG_@@extension_id__/img/envelope-closed.svg') no-repeat;
+    background-size: cover;
+    fill: #333399;
+}
+
+#ctl00_ctl00_ctl00_SiteContent_m_numComments, #ctl00_ctl00_ctl00_ctl00_SiteContent_m_numComments {
+    background: url('chrome-extension://__MSG_@@extension_id__/img/chat.svg') no-repeat;
+    background-size: cover;
+    fill: #333399;
+}
+
+#ctl00_ctl00_ctl00_SiteContent_m_numImports, #ctl00_ctl00_ctl00_ctl00_SiteContent_m_numImports {
+    background: url('chrome-extension://__MSG_@@extension_id__/img/data-transfer-download.svg') no-repeat;
+    background-size: cover;
+    fill: #333399;
 }

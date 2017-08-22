@@ -8,6 +8,10 @@
 	"content_scripts": [{
 		"css": ["revamped-style.css"],
 		"matches": ["https://www.runningahead.com/*"]
-	}]
+	}],
+
+	"web_accessible_resources": [
+		"img/*.svg"
+	]
 
 }

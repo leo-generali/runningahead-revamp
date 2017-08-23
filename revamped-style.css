@@ -87,15 +87,7 @@ div.PageFrame div.UserAccount div.Account span.Icon {
     display: none !important;
 }
 
-#ctl00_ctl00_ctl00_SiteContent_m_messagesLink:hover {
-    transition: 200ms;
-}
-
-#ctl00_ctl00_ctl00_SiteContent_m_commentsLink:hover {
-    transition: 200ms;
-}
-
-#ctl00_ctl00_ctl00_SiteContent_m_importLink:hover {
+.Notifications a:hover {
     transition: 200ms;
 }
 
@@ -127,12 +119,18 @@ ul.RANav1Menu li {
     border: 0 !important;
 }
 
+ul.RANav1Menu li:hover span.Flyout {
+    background: red !important;
+}
+
 .RANav1Menu.RANav1Menu.RANav1Menu { 
     max-width: 960px;
     margin: 0 auto;
     padding-left: 0;
     border: 0;
     background-color: rgba(0, 0, 0, 0); 
+    display: flex;
+    align-items: center;
 }
 
 .RASiteMenuButton.RASiteMenuButton.RASiteMenuButton {
@@ -140,7 +138,62 @@ ul.RANav1Menu li {
     border: 0;
     font-size: 16px;
     font-weight: normal;
+    letter-spacing: 0.75px;
+    padding: 10px;
 }
+
+ul.RANav1Menu li:hover *.RASiteMenuButton,
+ul.RANav1Menu li:hover span.Flyout
+{
+    transition: 100ms;
+    background: none !important;
+    color: #004E95;
+}
+
+.RASiteMenu {
+    height: 100% !important;
+}
+
+ul.RASiteMenu li.Hover {
+    background-color: red;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0) !important; 
+}
+
+#ctl00_ctl00_ctl00_SiteContent_m_options, #ctl00_ctl00_ctl00_ctl00_SiteContent_m_options {
+    order: 99;
+    margin-left: auto;
+}
+
+/*
+
+Active tab 
+
+*/
+
+div.RATabs ul.Tabs li.Tab a,
+div.RATabs ul.Tabs li.Tab span
+{
+    background: red !important;
+}
+
+div.RATabs ul.Tabs li.Tab a:hover,
+div.RATabs ul.Tabs li.Tab span:hover
+{
+    background: green !important;
+}
+
+ul.Tabs li.Tab a,
+ul.Tabs li.Tab span
+{
+    background: red !important;
+}
+
+ul.Tabs li.Tab a:hover,
+ul.Tabs li.Tab span:hover
+{
+    background: green !important;
+}
+
 
 #ctl00_ctl00_ctl00_ctl00_SiteContent_m_subscribe, #ctl00_ctl00_ctl00_SiteContent_m_subscribe {
     display: none;
@@ -155,7 +208,7 @@ ul.RANav1Menu li {
 .BodyFrame.BodyFrame.BodyFrame{
     margin: 0 auto;
     width: 100%;
-    max-width: 1280px;
+    max-width: 960px;
     padding: 0;
     border: 0;
 }

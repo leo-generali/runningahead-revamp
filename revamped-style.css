@@ -36,7 +36,7 @@ div.Header  {
     /*background-image: linear-gradient(100deg, #013A6B 20%, #004E95 50%);*/
     /*background: none !important;*/
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1100px;
     z-index: 40;
 }
 
@@ -148,7 +148,7 @@ ul.RANav1Menu li:hover span.Flyout {
 }
 
 .RANav1Menu.RANav1Menu.RANav1Menu { 
-    max-width: 1280px;
+    max-width: 1100px;
     margin: 0 auto;
     padding-left: 0;
     border: 0;
@@ -161,18 +161,31 @@ ul.RANav1Menu li:hover span.Flyout {
 .RASiteMenuButton.RASiteMenuButton.RASiteMenuButton {
     background: rgba(0, 0, 0, 0);
     border: 0;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
-    letter-spacing: 0.75px;
+    letter-spacing: 0;
     padding: 10px;
 }
 
-ul.RANav1Menu li:hover *.RASiteMenuButton,
-ul.RANav1Menu li:hover span.Flyout
+/*
+
+This is the CSS that changes the hover color of the menu bar
+
+*/
+
+ul.RANav1Menu li *.RASiteMenuButton:hover,
+ul.RANav1Menu li span.Flyout:hover
 {
-    transition: 100ms;
     background: none !important;
     color: #fc4c02;
+}
+
+#ctl00_ctl00_ctl00_SiteContent_menu1 {
+    color: black;
+}
+
+ul.RASiteMenu ul {
+    color: black !important;
 }
 
 .RASiteMenu {
@@ -182,7 +195,7 @@ ul.RANav1Menu li:hover span.Flyout
 .RANav2Menu {
     height: 36px !important;
     background: white !important;
-    max-width: 1280px;
+    max-width: 1100px;
     margin: 0 auto !important;
     padding: 0 !important;
 }
@@ -195,7 +208,6 @@ ul.RANav1Menu li:hover span.Flyout
 }
 
 ul.RASiteMenu li.Hover {
-    /*background-color: red;*/ 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0) !important; 
 }
 
@@ -261,7 +273,7 @@ ul.Tabs li.Tab span:hover
 .BodyFrame.BodyFrame.BodyFrame{
     margin: 0 auto;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1100px;
     padding: 0;
     border: 0;
 }
@@ -269,3 +281,13 @@ ul.Tabs li.Tab span:hover
 .WidgetsLayout {
 
 }
+
+/*////////////
+//
+// Side menu
+//
+////////////*/
+
+/*ul.Menu li a {
+    font-weight: bold;
+}*/

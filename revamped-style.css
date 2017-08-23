@@ -176,6 +176,15 @@ ul.RASiteMenu li.Hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0) !important; 
 }
 
+ul.PopupMenu {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0) !important; 
+}
+
+ul.RASiteMenu ul {
+    left: 0 !important;
+    top: 36px !important;
+}
+
 #ctl00_ctl00_ctl00_SiteContent_m_options, #ctl00_ctl00_ctl00_ctl00_SiteContent_m_options {
     order: 99;
     margin-left: auto;

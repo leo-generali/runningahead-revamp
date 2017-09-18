@@ -2,11 +2,11 @@
 	"manifest_version": 2,
 
 	"name": "RunningAHEAD Revamp",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Revamp RunningAHEAD styling to give it a more modern look.",
 
 	"content_scripts": [{
-		"css": ["revamped-style.css"],
+		"css": ["styles.css"],
 		"matches": ["https://www.runningahead.com/*"]
 	}],
 

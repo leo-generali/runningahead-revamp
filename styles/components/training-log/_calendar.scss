@@ -1,0 +1,37 @@
+.RAMonthlyCalendarContainer {
+	* {
+		font-size: $base-font-size - 2;
+		font-weight: normal !important;
+	}
+
+	.Title {
+		height: 28px;
+		background: none !important;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.PrevMonth {
+			order: 1;
+		}
+
+		.CurrentMonth {
+			order: 2;
+		}
+
+		.NextMonth {
+			order: 3;
+		}
+	}
+}
+
+.CalendarItemInfo {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border: 0 !important;
+	border-radius: 5px;
+
+	* {
+		font-size: $base-font-size - 2;
+	}
+
+}

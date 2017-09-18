@@ -1,3 +1,29 @@
 #ctl00_ctl00_ctl00_SiteContent_PageContent_TrainingLogContent_m_layout * {
 	font-size: $base-font-size - 2;
 }
+
+#ctl00_ctl00_ctl00_SiteContent_PageContent_TrainingLogContent_m_greetingPanel {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	margin-bottom: 6px;
+}
+
+button.Gray {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  height: 30px;
+  border-radius: $border-radius;
+	background: #eee !important;
+	// box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+	border: 1px solid darken(#eee, 30deg) !important;
+
+	&:hover {
+		transition: $transition;
+		background: darken(#eee, 10deg) !important;
+	}
+
+}

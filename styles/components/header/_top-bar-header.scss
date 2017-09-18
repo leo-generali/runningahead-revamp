@@ -7,7 +7,7 @@
 .PageFrame {
     z-index: 1;
 
-    .Header {
+    & > .Header {
         display: flex;
         align-items: center;
         height: 60px !important;

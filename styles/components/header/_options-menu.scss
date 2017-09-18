@@ -35,7 +35,8 @@ ul.RANav1Menu li {
 
 #ctl00_ctl00_ctl00_SiteContent_menu1 li,
 #ctl00_ctl00_ctl00_SiteContent_menu2 li,
-#ctl00_ctl00_ctl00_SiteContent_menu3 li, {
+#ctl00_ctl00_ctl00_SiteContent_menu3 li,
+#ctl00_ctl00_ctl00_SiteContent_menu4 li, {
 	margin: 0 !important;
 	background: none !important;
 	padding: 0 !important;
@@ -97,7 +98,7 @@ ul.PopupMenu {
 ul.RASiteMenu ul.PopupMenu {
 	border: 1px solid $deep-blue !important;
 	left: 0 !important;
-	top: 36px !important;
+	top: 32px !important;
 }
 
 #ctl00_ctl00_ctl00_SiteContent_m_options, #ctl00_ctl00_ctl00_ctl00_SiteContent_m_options {
@@ -107,26 +108,4 @@ ul.RASiteMenu ul.PopupMenu {
 
 .Selected {
 		box-shadow: inset 0 -3px 0 -1px $deep-blue;
-}
-
-/*
-
-Active tab 
-
-*/
-
-div.RATabs ul.Tabs li.Tab a,
-div.RATabs ul.Tabs li.Tab span
-{
-		/*background: red !important;*/
-}
-
-ul.Tabs li.Tab a,
-ul.Tabs li.Tab span
-{
-		/*background: red !important;*/
-}
-
-#ctl00_ctl00_ctl00_ctl00_SiteContent_m_subscribe, #ctl00_ctl00_ctl00_SiteContent_m_subscribe {
-		// display: none;
 }

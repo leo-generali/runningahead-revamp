@@ -1,7 +1,37 @@
+///////////////////
+// Base
+///////////////////
+
 @import 'components/variables';
 @import 'components/typography';
-
 @import 'components/body';
 
-@import 'components/top-bar-header';
+///////////////////
+// Header
+///////////////////
+
+@import 'components/header/top-bar-header';
+@import 'components/header/options-menu';
+
+///////////////////
+// Homescreen
+///////////////////
+
+@import 'components/home/home';
+
+///////////////////
+// Training Log
+///////////////////
+
+@import 'components/training-log/sidebar';
+
+// @import 'components/training-log/sidebar';
+// @import 'components/training-log/sidebar';
+// @import 'components/training-log/sidebar';
+// @import 'components/training-log/sidebar';
+// @import 'components/training-log/sidebar';
+
 @import 'components/temp';
+
+
+

@@ -1,0 +1,25 @@
+.RightPane.RightPane.RightPane {
+	width: 100%;
+	order: 2;
+}
+
+.LeftPane.LeftPane.LeftPane {
+	width: 100%;
+	order: 1;
+}
+
+.Footer {
+	order: 99;
+}
+
+#ctl00_ctl00_ctl00_SiteContent_PageContent_MainContent_m_latest {
+	display: flex;
+}
+
+.IndexShareContainer.IndexShareContainer.IndexShareContainer {
+	border: none;
+}
+
+li.Tab span {
+	font-size: $base-font-size - 2;
+}

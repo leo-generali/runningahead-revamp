@@ -1,0 +1,13 @@
+div.LogSection div.LogSectionMenu ul.Menu li a {
+	font-size: $base-font-size;
+	border: none !important;
+	padding: 20px 16px 20px 16px !important;
+
+	&:hover {
+		transition: $transition;
+	}
+}
+
+.Active {
+	box-shadow: inset 0px -4px 0px -2px $deep-blue;
+}

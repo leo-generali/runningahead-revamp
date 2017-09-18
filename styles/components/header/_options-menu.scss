@@ -33,10 +33,15 @@ ul.RANav1Menu li {
 	border: 0 !important;
 }
 
+
 #ctl00_ctl00_ctl00_SiteContent_menu1 li,
 #ctl00_ctl00_ctl00_SiteContent_menu2 li,
 #ctl00_ctl00_ctl00_SiteContent_menu3 li,
-#ctl00_ctl00_ctl00_SiteContent_menu4 li, {
+#ctl00_ctl00_ctl00_SiteContent_menu4 li, 
+#ctl00_ctl00_ctl00_ctl00_SiteContent_menu1 li, 
+#ctl00_ctl00_ctl00_ctl00_SiteContent_m_resources li, 
+#ctl00_ctl00_ctl00_ctl00_SiteContent_m_community li, 
+{
 	margin: 0 !important;
 	background: none !important;
 	padding: 0 !important;
@@ -52,7 +57,7 @@ ul.RANav1Menu li {
 }
 
 ul.RANav2Menu {
-	border-bottom: none !important;
+	border-bottom: 1px solid $deep-blue !important;
 }
 
 ul.RANav2Menu li.Hover ul.PopupMenu {

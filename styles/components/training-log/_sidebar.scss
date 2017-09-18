@@ -1,9 +1,29 @@
-div.LogSection div.LogSectionMenu ul.Menu li a {
-	font-size: $base-font-size;
-	border: none !important;
-	padding: 20px 16px 20px 16px !important;
+div.LogSection div.LogSectionMenu ul.Menu {
 
-	&:hover {
-		transition: $transition;
+	li {
+
+		a {
+			font-size: $base-font-size;
+			border: none !important;
+			padding: 10px 16px !important;
+
+			&:hover {
+				color: $deep-blue;
+				background: none !important;
+				transition: $transition;
+				box-shadow: $deep-blue -8px 0px 0px 0px;
+				transform: translateX(8px);
+			}
+		}
+
+		&.Active a {
+			color: $deep-blue;
+			background: none !important;
+			transition: $transition;
+			box-shadow: $deep-blue -8px 0px 0px 0px;
+			transform: translateX(8px);
+		}
 	}
 }
+
+

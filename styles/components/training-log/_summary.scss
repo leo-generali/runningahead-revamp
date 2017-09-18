@@ -6,7 +6,7 @@
 	display: flex;
 	align-items: center;
 	height: 30px;
-	margin-bottom: 6px;
+	margin-bottom: 4px;
 }
 
 button.Gray {
@@ -18,7 +18,7 @@ button.Gray {
   height: 30px;
   border-radius: $border-radius;
 	background: #eee !important;
-	// box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0) !important;
 	border: 1px solid darken(#eee, 30deg) !important;
 
 	&:hover {

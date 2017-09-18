@@ -65,31 +65,31 @@ ul.RANav2Menu li.Hover ul.PopupMenu {
 }
 
 .RASiteMenu {
-		height: 100% !important;
+	height: 100% !important;
 }
 
 // Menu 2
 
 .RANav2Menu {
+	display: flex !important;
+	height: 32px !important;
+	background: white !important;
+	max-width: 1100px;
+	margin: 0 auto 6px auto !important;
+	padding: 0 !important;
+
+	li {
 		display: flex !important;
-		height: 32px !important;
-		background: white !important;
-		max-width: 1100px;
-		margin: 0 auto !important;
-		padding: 0 !important;
+		align-items: center;
+		border: 0 !important;
+		margin: 0 !important;
 
-		li {
-			display: flex !important;
-			align-items: center;
-			border: 0 !important;
-			margin: 0 !important;
-
-			a {
-				border: none !important;
-				background: none !important;
-				font-size: $base-font-size;
-			}
+		a {
+			border: none !important;
+			background: none !important;
+			font-size: $base-font-size;
 		}
+	}
 }
 
 ul.RASiteMenu li.Hover {

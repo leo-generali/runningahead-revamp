@@ -6,10 +6,10 @@ div.LogSection div.LogSectionMenu ul.Menu {
 			font-size: $base-font-size;
 			border: none !important;
 			padding: 10px 16px !important;
+			background: none !important;
 
 			&:hover {
 				color: $deep-blue;
-				background: none !important;
 				transition: $transition;
 				box-shadow: $deep-blue -8px 0px 0px 0px;
 				transform: translateX(8px);
